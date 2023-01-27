@@ -1,6 +1,6 @@
 import requests
 
-url = 'https://api.github.com/bbarr7/json'
+url = 'https://api.github.com/repos/bbarr7/plateID/hooks'
 myobj = {'plateid': 'somevalue'}
 
 x = requests.post(url, json = myobj)
