@@ -1,8 +1,9 @@
 import requests
 
-url = 'https://www.w3schools.com/python/demopage.php'
-myobj = {'plateID': 'somevalue'}
+url = 'https://api.github.com/bbarr7/json'
+myobj = {'plateid': 'somevalue'}
 
 x = requests.post(url, json = myobj)
 
 print(x.text)
+
