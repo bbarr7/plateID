@@ -1,0 +1,49 @@
+HEADERS
+
+1 {
+2   "Accept": "*/*",
+3   "User-Agent": "curl/7.38.0",
+4   "Content-Type": "application/json",
+5   "Content-Length": "741",
+6   "Accept-Encoding": "gzip"
+7 }
+BODY
+
+1  {
+2  "Success":true, 
+3  "Recycle":true, 
+4  "Device_UTCTime":"2022-11-06 06:44:41.000", 
+5  "Model_Name":"GV-LPR2800-DL",
+6  "Device_Name":"GV-LPR2800-DL",
+7  "sd_check":111819,
+8  "LatestOne":0,
+9  "getLastTmFlag":4,
+10 "MaxRetNum":1,
+11 "iofilter":0,
+12 "Query_UTCTime":"2022-11-06 03:49:29.910", 
+13 "DataNum":1, 
+14 "data":[
+15 {
+16 "CamID":0,
+17 "PlateID":"3EWRM",
+18 "RecognizedPlateID":"3EWRM",
+19 "Operator":"",
+20 "OriPlate":"",
+21 "PhotoName":"20221106034930231_1_3EWRM.jpg",
+22 "Local":"2022-11-06 11:49:30.231",
+23 "UTC":"2022-11-06 03:49:30.231",
+24 "PlateRect":{"left":0,"top":64,"right":6,"bottom":73},
+25 "CardID0":"N/A",
+26 "CardID1":"N/A",
+27 "CardID2":"N/A",
+28 "CardCode":"N/A",
+29 "CardBits":0,
+30 "CardCode_Recog":"N/A",
+31 "CardBits_Recog":0,
+32 "ExtraInfo":"",
+33 "GpsInfo":"",
+34 "MsgID":22,
+35 "Live":0,
+36 "$":""
+37 }]
+38 }
